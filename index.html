@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutribot</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/nutribot_logo.png" alt="Nutribot Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-to-use">How to Use</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Sections -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="hero-content">
+                            <h1 class="display-4">Scan & Learn About Your Food</h1>
+                            <p class="lead">Nutribot is your WhatsApp companion for making informed food choices. Simply send a photo of any packaged food, and get instant insights about harmful ingredients.</p>
+                            <a href="https://wa.me/917411377278?text=hi" class="btn btn-success btn-lg get-started-btn">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>Get Started</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What is Nutribot Section -->
+        <section id="what-is" class="section-padding">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="what-is-content">
+                            <h2 class="section-title text-center">What is Nutribot?</h2>
+                            <p class="section-text">Nutribot is your intelligent WhatsApp companion that helps you make informed decisions about packaged foods. Using advanced AI technology powered by ChatGPT, Nutribot analyzes food packaging images to identify potentially harmful ingredients.</p>
+                            <p class="section-text">Simply snap a picture of any food package's ingredient list and send it to Nutribot on WhatsApp. Within seconds, you'll receive a detailed analysis highlighting any concerning ingredients and their potential health impacts.</p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check-circle"></i> Instant ingredient analysis</li>
+                                <li><i class="fas fa-check-circle"></i> Easy WhatsApp integration</li>
+                                <li><i class="fas fa-check-circle"></i> AI-powered insights</li>
+                                <li><i class="fas fa-check-circle"></i> Health-focused recommendations</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="/assets/whatisnutribot.avif" alt="Nutribot Demo" class="what-is-image img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Why Choose Nutribot?</h2>
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="feature-card">
+                            <i class="fas fa-robot feature-icon"></i>
+                            <h3>AI-Powered Analysis</h3>
+                            <p>Powered by ChatGPT for accurate ingredient analysis and detailed explanations</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-card">
+                            <i class="fas fa-mobile-alt feature-icon"></i>
+                            <h3>WhatsApp Integration</h3>
+                            <p>No extra apps needed - just use WhatsApp to scan and get instant results</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-card">
+                            <i class="fas fa-shield-alt feature-icon"></i>
+                            <h3>Health Focused</h3>
+                            <p>Identifies potentially harmful ingredients and explains their health impacts</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-card">
+                            <i class="fas fa-heart feature-icon"></i>
+                            <h3>Promotes Healthy Living</h3>
+                            <p>Helps you make informed decisions for a healthier lifestyle through better food choices</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to Use Section -->
+        <section id="how-to-use" class="section-padding">
+            <div class="bg-circle bg-circle-1"></div>
+            <div class="bg-circle bg-circle-2"></div>
+            <div class="container">
+                <h2 class="section-title text-center">How to Use Nutribot</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="step-card">
+                            <div class="step-number">1</div>
+                            <div class="step-image">
+                                <img src="/assets/save-number.avif" alt="Save WhatsApp Number">
+                            </div>
+                            <h4>Save Our Number</h4>
+                            <p>Add Nutribot's WhatsApp number to your contacts</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="step-card">
+                            <div class="step-number">2</div>
+                            <div class="step-image">
+                                <img src="/assets/take-photo.avif" alt="Take Photo of Ingredients">
+                            </div>
+                            <h4>Take a Photo</h4>
+                            <p>Snap a clear picture of the food package ingredients list</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="step-card">
+                            <div class="step-number">3</div>
+                            <div class="step-image">
+                                <img src="/assets/send-image.avif" alt="Send to WhatsApp">
+                            </div>
+                            <h4>Send Image</h4>
+                            <p>Share the photo with Nutribot on WhatsApp</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="step-card">
+                            <div class="step-number">4</div>
+                            <div class="step-image">
+                                <img src="/assets/get-results.avif" alt="Get Analysis Results">
+                            </div>
+                            <h4>Get Results</h4>
+                            <p>Receive detailed analysis of ingredients within seconds</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section-padding">
+            <div class="testimonial-bg-circle testimonial-bg-1"></div>
+            <div class="testimonial-bg-circle testimonial-bg-2"></div>
+            <div class="container">
+                <h2 class="section-title">What Our Users Say</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"Nutribot helped me identify hidden allergens in packaged foods. It's a game-changer for someone with food allergies!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">S</div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Sarah M.</h4>
+                                    <p class="author-title">Health Enthusiast</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"As a parent, I love how easy it is to check ingredients. The explanations are clear and helpful."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">S</div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Sandeep KS</h4>
+                                    <p class="author-title">Parent</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"Quick responses and accurate analysis. I use it every time I go grocery shopping!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">S</div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Shilpa</h4>
+                                    <p class="author-title">Nutrition Coach</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contact Us</h5>
+                    <p><i class="far fa-envelope"></i> hellonutribot@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/hello_nutribot/" class="social-link instagram-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nutribot. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
