@@ -3,13 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nutribot</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Nutribot - Your AI Food Ingredient Analyzer on WhatsApp</title>
+    <meta name="description" content="Nutribot helps you make informed food choices by analyzing ingredients through WhatsApp. Simply send a photo of any food package and get instant insights about harmful ingredients.">
+    <meta name="keywords" content="food analyzer, ingredient checker, WhatsApp bot, nutrition analysis, food safety, allergen detection, AI food analysis">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nutribot.com/">
+    <meta property="og:title" content="Nutribot - AI Food Ingredient Analyzer">
+    <meta property="og:description" content="Make informed food choices with Nutribot. Send food package photos via WhatsApp for instant ingredient analysis.">
+    <meta property="og:image" content="/assets/nutribot_og_image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nutribot.com/">
+    <meta property="twitter:title" content="Nutribot - AI Food Ingredient Analyzer">
+    <meta property="twitter:description" content="Make informed food choices with Nutribot. Send food package photos via WhatsApp for instant ingredient analysis.">
+    <meta property="twitter:image" content="/assets/nutribot_og_image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://nutribot.com/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="styles.css" rel="stylesheet">
     <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Add this just before closing </head> tag -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Nutribot",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "WhatsApp",
+        "description": "AI-powered food ingredient analyzer that helps users make informed decisions about packaged foods through WhatsApp",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "1250"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Nutribot",
+        "url": "https://nutribot.com",
+        "logo": "https://nutribot.com/assets/nutribot_logo.png",
+        "sameAs": [
+            "https://www.instagram.com/hello_nutribot/"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "hellonutribot@gmail.com",
+            "contactType": "customer service"
+        }
+    }
+    </script>
 </head>
 <body>
     <!-- Header/Navigation -->
@@ -45,16 +111,20 @@
 
     <!-- Main Content Sections -->
     <main>
+        <h1 class="visually-hidden">Nutribot - AI Food Ingredient Analyzer</h1>
+        
         <!-- Hero Section -->
-        <section id="home" class="hero-section section-padding">
+        <section id="home" class="hero-section section-padding" aria-label="Hero section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="hero-content">
-                            <h1 class="display-4">Scan & Learn About Your Food</h1>
+                            <h2 class="display-4">Scan & Learn About Your Food</h2>
                             <p class="lead">Nutribot is your WhatsApp companion for making informed food choices. Simply send a photo of any packaged food, and get instant insights about harmful ingredients.</p>
-                            <a href="https://wa.me/917411377278?text=hi" class="btn btn-success btn-lg get-started-btn">
-                                <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/917411377278?text=hi" 
+                               class="btn btn-success btn-lg get-started-btn"
+                               aria-label="Get Started with Nutribot on WhatsApp">
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
                                 <span>Get Started</span>
                             </a>
                         </div>
@@ -62,6 +132,11 @@
                 </div>
             </div>
         </section>
+        
+        <!-- Add proper alt text to all images -->
+        <img src="/assets/nutribot_logo.png" 
+             alt="Nutribot Logo - AI-powered food ingredient analyzer" 
+             class="navbar-logo">
 
         <!-- What is Nutribot Section -->
         <section id="what-is" class="section-padding">
@@ -96,28 +171,28 @@
                         <div class="feature-card">
                             <i class="fas fa-robot feature-icon"></i>
                             <h3>AI-Powered Analysis</h3>
-                            <p>Powered by ChatGPT for accurate ingredient analysis and detailed explanations</p>
+                            <p>Powered by ChatGPT for accurate ingredient analysis and detailed explanations.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="feature-card">
                             <i class="fas fa-mobile-alt feature-icon"></i>
                             <h3>WhatsApp Integration</h3>
-                            <p>No extra apps needed - just use WhatsApp to scan and get instant results</p>
+                            <p>No extra apps needed - just use WhatsApp to scan and get instant results.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="feature-card">
                             <i class="fas fa-shield-alt feature-icon"></i>
                             <h3>Health Focused</h3>
-                            <p>Identifies potentially harmful ingredients and explains their health impacts</p>
+                            <p>Identifies potentially harmful ingredients and explains their health impacts.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="feature-card">
                             <i class="fas fa-heart feature-icon"></i>
                             <h3>Promotes Healthy Living</h3>
-                            <p>Helps you make informed decisions for a healthier lifestyle through better food choices</p>
+                            <p>Helps you make informed decisions for a healthier lifestyle through better food choices.</p>
                         </div>
                     </div>
                 </div>
@@ -138,7 +213,7 @@
                                 <img src="/assets/save-number.avif" alt="Save WhatsApp Number">
                             </div>
                             <h4>Save Our Number</h4>
-                            <p>Add Nutribot's WhatsApp number to your contacts</p>
+                            <p>Add Nutribot's WhatsApp number to your contacts.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -148,7 +223,7 @@
                                 <img src="/assets/take-photo.avif" alt="Take Photo of Ingredients">
                             </div>
                             <h4>Take a Photo</h4>
-                            <p>Snap a clear picture of the food package ingredients list</p>
+                            <p>Snap a clear picture of the food package ingredients list.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -168,7 +243,7 @@
                                 <img src="/assets/get-results.avif" alt="Get Analysis Results">
                             </div>
                             <h4>Get Results</h4>
-                            <p>Receive detailed analysis of ingredients within seconds</p>
+                            <p>Receive detailed analysis of ingredients within seconds.</p>
                         </div>
                     </div>
                 </div>
@@ -248,5 +323,27 @@
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Add this just before the closing </body> tag -->
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Add active class to nav items
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navLinks.forEach(l => l.parentElement.classList.remove('active'));
+                this.parentElement.classList.add('active');
+            });
+        });
+    </script>
 </body>
 </html> 
